@@ -40,7 +40,7 @@ h6 {
 p {
   color: #6d6d6d;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.2;
   font-weight: 400; }
 
 a {
@@ -275,7 +275,7 @@ img {
     .mobile-nav .amado-navbar-toggler span {
       width: 28px;
       height: 3px;
-      background-color: #fbb710;
+      background-color: grey;
       display: block;
       margin-bottom: 5px;
       border-radius: 2px; }
@@ -284,7 +284,7 @@ img {
 
 /* ScrollUp */
 #scrollUp {
-  background-color: #fbb710;
+  background-color: grey;
   border-radius: 0;
   bottom: 60px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
@@ -1015,13 +1015,13 @@ img {
 .newsletter-area {
   position: relative;
   z-index: 1;
-  background-color: #3c3c3c; }
+  background-color: rgb(222, 209, 193); }
   .newsletter-area .newsletter-text {
     position: relative;
     z-index: 1; }
     .newsletter-area .newsletter-text h2 {
       font-size: 36px;
-      margin-bottom: 10px;
+      margin-bottom: 1px;
       color: #fff; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .newsletter-area .newsletter-text h2 {
@@ -1032,7 +1032,7 @@ img {
       .newsletter-area .newsletter-text h2 span {
         color: #fbb710; }
     .newsletter-area .newsletter-text p {
-      color: #b3b1b1;
+      color: black;
       margin-bottom: 0; }
   .newsletter-area .newsletter-form form {
     position: relative;
@@ -1050,7 +1050,7 @@ img {
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms;
       height: 50px;
-      background-color: #fbb710;
+      background-color:rgb(193, 178, 131) ;
       color: #fff;
       font-size: 14px;
       padding: 0 30px;
@@ -1061,7 +1061,7 @@ img {
       z-index: 10;
       border: none; }
       .newsletter-area .newsletter-form form input[type="submit"]:hover, .newsletter-area .newsletter-form form input[type="submit"]:focus {
-        background-color: #fbb710;
+        background-color: grey;
         color: #fff; }
 
 /* :: 7.0 Popular Products Area CSS */
@@ -1154,17 +1154,22 @@ img {
 .footer_area {
   position: relative;
   z-index: 1;
-  background-color: #252525;
+  background-color: rgb(193, 178, 131);
   padding: 80px 0; }
   .footer_area .single_widget_area .copywrite {
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    color: black;
+    text-align: justify;
     margin-top: 10px; }
     .footer_area .single_widget_area .copywrite a {
-      font-size: 12px;
-      color: rgba(255, 255, 255, 0.4); }
+      font-size: 22px;
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder; 
+    }
+      
       .footer_area .single_widget_area .copywrite a:hover {
-        color: #fff; }
+        color: grey; }
   .footer_area .single_widget_area .footer_menu {
     position: relative;
     z-index: 1;
@@ -1173,7 +1178,7 @@ img {
       padding: 0; }
     .footer_area .single_widget_area .footer_menu .navbar-nav .nav-item .nav-link {
       padding: 10px 30px;
-      color: #fff;
+      color: black;
       text-transform: uppercase;
       font-size: 14px; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1183,11 +1188,14 @@ img {
         .footer_area .single_widget_area .footer_menu .navbar-nav .nav-item .nav-link {
           padding: 10px 0; } }
       .footer_area .single_widget_area .footer_menu .navbar-nav .nav-item .nav-link:hover, .footer_area .single_widget_area .footer_menu .navbar-nav .nav-item .nav-link:focus {
-        color: #fbb710; }
+        color: grey; }
     .footer_area .single_widget_area .footer_menu .navbar-nav .nav-item.active .nav-link {
-      color: #fbb710; }
+      color: white; }
     .footer_area .single_widget_area .footer_menu .navbar-nav .nav-item:last-child .nav-link {
       padding-right: 0; }
+    .footer__img{
+    max-width: 50%;
+    }
 
 /* :: 9.0 Product Sidebar Area CSS */
 .widget {
